@@ -11,8 +11,10 @@ Over 30 but below 35 they are obese
 Above 35 they are clinically obese.
 '''
 
+# 🚨 Don't change the code below 👇
 height = float(input("enter your height in m: "))
 weight = float(input("enter your weight in kg: "))
+# 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
 result = weight / (height ** 2)
@@ -22,7 +24,7 @@ if bmi < 18.5:
 elif bmi < 25:
     print("Your BMI is " + str(bmi) + ", you have a normal weight.")
 elif bmi < 30:
-    print("Your BMI is " + str(bmi) + ", you are overweight.")
+    print("Your BMI is " + str(bmi) + ", you are slightly overweight.")
 elif bmi < 35:
     print("Your BMI is " + str(bmi) + ", you are obese.")
 else:
