@@ -31,6 +31,24 @@ But the year 2100 is not a leap year because:
 Warning your output should match the Example Output format exactly, even the positions of the commas and full stops
 '''
 
+
+# 🚨 Don't change the code below 👇
+year = int(input("Which year do you want to check? "))
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+if year%400==0:
+    print("Leap year.")
+elif year%100==0:
+    print("Leap year.")
+elif year%4==0:
+    print("Leap year.")
+else:
+    print("Not leap year.")
+
+    '''
+    ***ALTERNATE ANSWER***
 # 🚨 Don't change the code below 👇
 year = int(input("Which year do you want to check? "))
 # 🚨 Don't change the code above 👆
@@ -38,7 +56,7 @@ year = int(input("Which year do you want to check? "))
 #Write your code below this line 👇
 
 
-#year=int(input("Enter year to be checked:"))
+year=int(input("Enter year to be checked:"))
 if(year%4==0 and year%100!=0 or year%400==0):
     print("Leap year.")
 else:
