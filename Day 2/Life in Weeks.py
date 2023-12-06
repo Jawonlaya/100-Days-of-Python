@@ -32,4 +32,5 @@ days = val * 365
 weeks = val * 52
 months = val * 12
 
+# print with f-String
 print(f"You have {days} days, {weeks} weeks, and {months} months left.")
